@@ -8,7 +8,7 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -24,13 +24,11 @@
             crossorigin="anonymous"></script>
 
     <script>
-        $(document).ready(function()  {
+        $(document).ready(function () {
             $.getJSON('https://baconipsum.com/api/?callback=?',
-                { 'type':'meat-and-filler', 'start-with-lorem':'1', 'paras':'3' },
-                function(baconGoodness)
-                {
-                    if (baconGoodness && baconGoodness.length > 0)
-                    {
+                {'type': 'meat-and-filler', 'start-with-lorem': '1', 'paras': '3'},
+                function (baconGoodness) {
+                    if (baconGoodness && baconGoodness.length > 0) {
                         $("#bacon").html('');
                         for (var i = 0; i < baconGoodness.length; i++)
                             $("#bacon").append('<p>' + baconGoodness[i] + '</p>');
@@ -119,95 +117,110 @@
                 </div>
             </div>
 
-                <div class="col-md">
+            <div class="col-md">
                 <div class="section1-pic3 pic my-5">
                     <h1 class="section-title text-right p-3">PRAYER</h1>
                     <p class="section-text text-center">Submit your prayer request <i
                             class="far fa-arrow-circle-right"></i></p>
                 </div>
-                </div>
             </div>
         </div>
     </div>
+</div>
 
 <div class="section2">
     <div class="container">
-
-        <h1 class="section2-title">UPCOMING EVENTS</h1>
-        <hr>
         <div class="row">
-            <div class="col-2">
-                <div class="section2-date"><p>20</p>
-                    <p>JULY</p></div>
-            </div>
+            <div class="col-md">
+                <div class="section2-upcomingevents">
+                    <h1 class="section2-title">UPCOMING EVENTS</h1>
+                    <hr>
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="section2-date"><p>20</p>
+                                <p>JULY</p></div>
+                        </div>
 
-            <div class="col-8">
-                <div class="section2-program"><p>FAMILY SUNDAY</p></div>
-                <p>Sunday 9:30 AM</p>
+                        <div class="col-8">
+                            <div class="section2-program"><p>FAMILY SUNDAY</p></div>
+                            <p>Sunday 9:30 AM</p>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn text-left">MORE</button>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="section2-date"><p>20</p>
+                                <p>JULY</p></div>
+                        </div>
+                        <div class="col-8">
+                            <div class="section2-program"><p>FAMILY SUNDAY</p></div>
+                            <p>Sunday 9:30 AM</p>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn text-left">MORE</button>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="section2-date"><p>20</p>
+                                <p>JULY</p></div>
+                        </div>
+                        <div class="col-8">
+                            <div class="section2-program"><p>FAMILY SUNDAY</p></div>
+                            <p>Sunday 9:30 AM</p>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn text-left">MORE</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-2">
-                <button type="button" class="btn text-left">MORE</button>
+            
+            <div class="col-md">
+                <div class="section2-sevenoaks">
+                    <h1 class="section2-title pt-5">SEVENOAKS</h1>
+                    <p id="bacon"></p>
+                    <a href="#" class="section2-link mb-5">READ MORE>></a>
+                </div>
             </div>
         </div>
-
-        <hr>
-        <div class="row">
-            <div class="col-2">
-                <div class="section2-date"><p>20</p>
-                    <p>JULY</p></div>
-            </div>
-            <div class="col-8">
-                <div class="section2-program"><p>FAMILY SUNDAY</p></div>
-                <p>Sunday 9:30 AM</p>
-            </div>
-            <div class="col-2">
-                <button type="button" class="btn text-left">MORE</button>
-            </div>
-        </div>
-
-        <hr>
-        <div class="row">
-            <div class="col-2">
-                <div class="section2-date"><p>20</p>
-                    <p>JULY</p></div>
-            </div>
-            <div class="col-8">
-                <div class="section2-program"><p>FAMILY SUNDAY</p></div>
-                <p>Sunday 9:30 AM</p>
-            </div>
-            <div class="col-2">
-                <button type="button" class="btn text-left">MORE</button>
-            </div>
-        </div>
-
-        <h1 class="section2-title pt-5">SEVENOAKS</h1>
-        <p id="bacon"></p>
-
-        </p>
-        <a href="#" class="section2-link mb-5">READ MORE>></a>
     </div>
 </div>
 
 <div class="section3">
     <div class="container">
-        <div class="section3-sign">
-            <p class="section3-title pt-4">SIGNUP TO OUR NEWSLETTER</p>
-            <button type="button" class="btn section3-button text-center">EMAIL SIGNUP</button>
-        </div>
+        <div class="row">
+            <div class="col-md">
+                <div class="section3-sign">
+                    <p class="section3-title pt-4">SIGNUP TO OUR NEWSLETTER</p>
+                    <button type="button" class="btn section3-button text-center">EMAIL SIGNUP</button>
+                </div>
+            </div>
 
-        <div class="section3-service pt-4">
-            <p class="section3-title">SERVICE TIMES</p>
-            <p>Sundays at 9:30 & 11:30 AM</p>
-            <p class="section3-little-text">Lorem ipsum dolor sit amet</p>
-        </div>
+            <div class="col-md">
+                <div class="section3-service pt-4">
+                    <p class="section3-title">SERVICE TIMES</p>
+                    <p>Sundays at 9:30 & 11:30 AM</p>
+                    <p class="section3-little-text">Lorem ipsum dolor sit amet</p>
+                </div>
+            </div>
 
-        <div class="section3-connect pt-4">
-            <p class="section3-title">CONNECT WITH US</p>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-youtube-square"></i>
-            <i class="fab fa-pinterest-square"></i>
-            <i class="fas fa-envelope-square"></i>
+            <div class="col-md">
+                <div class="section3-connect pt-4">
+                    <p class="section3-title">CONNECT WITH US</p>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-youtube-square"></i>
+                    <i class="fab fa-pinterest-square"></i>
+                    <i class="fas fa-envelope-square"></i>
+                </div>
+            </div>
         </div>
 
         <hr>
