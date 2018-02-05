@@ -7,18 +7,15 @@
  }
 
 .header {
-  background-image: url("../images/header-background.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: right;
 }
 
 .header-text {
-  margin-top: 200px;
+  margin-top: 10px;
   font-size: 30px;
   background-color: $blue-fade;
   max-width: 350px;
-  max-height: 150px;
+  max-height: 200px;
   color: $white;
 }
 
