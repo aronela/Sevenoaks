@@ -2,52 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6064f3a-ea14-4ddd-885a-b5721f0a8676" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Black.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Bold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-BoldIt.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Extrabld.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Light.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-LightIt.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-RegularIt.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Semibold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-SemiboldIt.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-Light.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-LightIt.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-Regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-RegularIt.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-Semibold.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-SemiboldIt.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/header-background.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/section1-pic1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/section1-pic2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/section1-pic3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Black.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Bold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-BoldIt.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Extrabld.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-LightIt.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-RegularIt.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-Semibold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNova-SemiboldIt.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-Light.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-LightIt.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-Regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-RegularIt.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-Semibold.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/ProximaNovaCond-SemiboldIt.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_fonts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_variables.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/24bc68b074028032094da418fbbc9e499c64633b/style.scssc" afterPath="$PROJECT_DIR$/.sass-cache/24bc68b074028032094da418fbbc9e499c64633b/style.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/manifest.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/header-background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/section1-pic1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/section1-pic2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/section1-pic3.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/style.scss" afterPath="$PROJECT_DIR$/sass/style.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -76,11 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/style.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="496">
               <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -130,6 +101,7 @@
         <option value="$PROJECT_DIR$/sass/_variables.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/style.scss" />
+        <option value="$PROJECT_DIR$/manifest.json" />
       </list>
     </option>
   </component>
@@ -197,7 +169,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,6 +188,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aronela\WebstormProjects\Sevenoaks" />
       <recent name="C:\Users\Aronela\WebstormProjects\Sevenoaks\fonts" />
       <recent name="C:\Users\Aronela\WebstormProjects\Sevenoaks\sass" />
       <recent name="C:\Users\Aronela\WebstormProjects\Sevenoaks\images" />
@@ -311,12 +284,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1517813824004</updated>
-      <workItem from="1517813825314" duration="11091000" />
+      <workItem from="1517813825314" duration="11398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11091000" />
+    <option name="totallyTimeSpent" value="11398000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
@@ -399,6 +372,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
           <caret line="92" column="18" lean-forward="false" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
           <folding />
         </state>
       </provider>
