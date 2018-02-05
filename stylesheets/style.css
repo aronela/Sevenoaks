@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Proxima+Nova");
+/* line 4, ../sass/style.scss */
+.header {
+  background-image: url("../images/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+/* line 11, ../sass/style.scss */
+.header-text {
+  margin-top: 200px;
+  font-family: "Proxima Nova";
+  font-size: 30px;
+  background-color: rgba(43, 204, 196, 0.8);
+  max-width: 350px;
+  max-height: 150px;
+  color: #fff;
+}

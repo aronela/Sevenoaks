@@ -1,0 +1,94 @@
+@import "fonts";
+@import "variables";
+
+
+ body {
+   font-family: $font-normal;
+ }
+
+.header {
+  background-image: url("../images/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.header-text {
+  margin-top: 200px;
+  font-size: 30px;
+  background-color: $blue-fade;
+  max-width: 350px;
+  max-height: 150px;
+  color: $white;
+}
+
+.pic {
+  padding-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section1-pic1 {
+  background-image: url("../images/section1-pic1.jpg");
+}
+
+.section-title {
+  color: $white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.section-text {
+  background-color: $blue-fade;
+  max-width: 230px;
+  margin-left: 140px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section1-pic2 {
+  background-image: url("../images/section1-pic2.jpg");
+}
+
+.section1-pic3 {
+  background-image: url("../images/section1-pic3.jpg");
+}
+
+.section2-title {
+  color: $blue;
+}
+
+.section2-date {
+  color: $green;
+}
+
+.section2-program {
+  color: $pink;
+}
+
+.section2 .btn {
+  background-color: $blue;
+}
+
+.section2-link {
+  color: $pink;
+}
+
+.section3-button {
+  background-color: $blue;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.section3 {
+  margin-top: 30px;
+  background-color: #525252;
+  color: $white;
+}
+
+.section3-little-text {
+  font-size: 12px;
+}
+
+.section3-title {
+  font-size: 20px;
+}
